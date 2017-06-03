@@ -2,29 +2,25 @@ import media
 import fresh_tomatoes
 
 inception = media.Movie("Inception",
-                        "Generic story line",
-                        "http://a.dilcdn.com/bl/wp-content/uploads/sites/8/2013/02/toy_story_wallpaper_by_artifypics-d5gss19.jpg",
-                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+                        "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
+                        "http://www.impawards.com/2010/posters/inception_ver12_xlg.jpg",
+                        "https://www.youtube.com/watch?v=8hP9D6kZseM")
 
 shawshank_redemption = media.Movie("Shawshank Redemption",
                         "Generic story line",
-                        "http://a.dilcdn.com/bl/wp-content/uploads/sites/8/2013/02/toy_story_wallpaper_by_artifypics-d5gss19.jpg",
-                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+                        "https://images-na.ssl-images-amazon.com/images/I/519NBNHX5BL.jpg",
+                        "https://www.youtube.com/watch?v=6hB3S9bIaco")
 
 get_out = media.Movie("Get Out",
                         "Generic story line",
-                        "http://a.dilcdn.com/bl/wp-content/uploads/sites/8/2013/02/toy_story_wallpaper_by_artifypics-d5gss19.jpg",
-                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+                        "https://o.aolcdn.com/images/dims?resize=270%2C400&quality=70&image_uri=https%3A%2F%2Fs3.amazonaws.com%2Fmoviefone%2Fimages%2Fposters%2Fgttposter_1488397681.jpg&client=cbc79c14efcebee57402&signature=cf4c7605a45bdb614502afefaded2a777657f50c",
+                        "https://www.youtube.com/watch?v=sRfnevzM9kQ")
 
-toy_story4 = media.Movie("hello",
+zombieland = media.Movie("Zombieland",
                         "Generic story line",
-                        "http://a.dilcdn.com/bl/wp-content/uploads/sites/8/2013/02/toy_story_wallpaper_by_artifypics-d5gss19.jpg",
-                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+                        "http://www.sonypictures.com/movies/zombieland/assets/images/onesheet.jpg",
+                        "https://www.youtube.com/watch?v=8m9EVP8X7N8")
 
-toy_story5 = media.Movie("Toy Story",
-                        "Generic story line",
-                        "http://a.dilcdn.com/bl/wp-content/uploads/sites/8/2013/02/toy_story_wallpaper_by_artifypics-d5gss19.jpg",
-                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
-movies = [inception,shawshank_redemption,get_out,toy_story4,toy_story5]
+movies = [inception,shawshank_redemption,get_out,zombieland]
 fresh_tomatoes.open_movies_page(movies)
