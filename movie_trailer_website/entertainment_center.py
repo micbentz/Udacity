@@ -16,9 +16,9 @@ inception = media.Movie("Inception",
 shawshank_redemption = media.Movie("Shawshank Redemption",
                                    "Generic story line",
                                    ("https://images-na.ssl-images-amazon.com/i"
-                                    "mages/I/519NBNHX5BL.jpg"),
-                                   "https://www.youtube.com/watch?v=6hB3S9bIa\
-                                   co")
+                                       "mages/I/519NBNHX5BL.jpg"),
+                                   ("https://www.youtube.com/watch?v=6hB3S9bIa"
+                                       "co"))
 
 get_out = media.Movie("Get Out",
                       "Generic story line",
